@@ -1,0 +1,4 @@
+langchain_community
+pypdf
+langchain_groq
+elevenlabs
