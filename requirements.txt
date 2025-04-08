@@ -4,3 +4,4 @@ langchain_groq
 langchain_google_genai
 discord
 langchain_huggingface
+hf_xet
