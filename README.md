@@ -50,6 +50,14 @@ python main.py
 
 ## Example Interaction
 
+In order to add discord bot to the server.
+
+https://discord.com/oauth2/authorize?client_id=1358443923802030190 -> click this 
+
+and ![image](https://github.com/user-attachments/assets/50435d1c-c76d-4712-9b32-f3b85cbc83ff)
+
+click to add server. Now you can use DocuGenie.
+
 ![image](https://github.com/user-attachments/assets/d29fb50c-665e-4473-9d05-ba5da57d52bd)
 
 Testing with only one pdf and summarize all.
