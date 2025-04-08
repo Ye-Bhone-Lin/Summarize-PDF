@@ -61,3 +61,5 @@ The range would be pdf file pages.
 ![image](https://github.com/user-attachments/assets/2957d4b5-02f4-4d5d-88ea-357e297f9960)
 
 I uploaded the fulfilling dataskills pdf file and generating images pdf file. If you do not want to ask anymore type "exit" or "done".
+
+Author: Ye Bhone Lin
