@@ -13,7 +13,7 @@ This directory contains Jupyter notebooks used to prototype and test PDF summari
 
 ---
 
-### 🔍 retrieve.ipynb
+### retrieve.ipynb
 
 > Purpose: Experiment with retrieval-based question answering from PDFs.
 
