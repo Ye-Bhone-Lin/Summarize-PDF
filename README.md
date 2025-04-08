@@ -58,6 +58,8 @@ and ![image](https://github.com/user-attachments/assets/50435d1c-c76d-4712-9b32-
 
 click to add server. Now you can use DocuGenie.
 
+##### To use DocuGenie
+
 ![image](https://github.com/user-attachments/assets/d29fb50c-665e-4473-9d05-ba5da57d52bd)
 
 Testing with only one pdf and summarize all.
