@@ -5,3 +5,4 @@ discord
 langchain_huggingface
 hf_xet
 faiss-cpu
+langchain_google_genai
