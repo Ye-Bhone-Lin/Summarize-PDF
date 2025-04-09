@@ -8,7 +8,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
 
 load_dotenv()
 
@@ -63,25 +62,14 @@ class Questions_and_Answers():
             ]
             )
         
-        try:
-            groq_model = ChatGroq(
-                temperature=0.1,
-                model_name="llama-3.3-70b-versatile"
-            )
-            stuff_chain = create_stuff_documents_chain(groq_model, prompt)
-            output = create_retrieval_chain(retriever, stuff_chain)
-            answer_output = output.invoke({"input": user_question})['answer']
-            return answer_output
         
-        except Exception as e:
-            
-            gemini_model = ChatGoogleGenerativeAI(
-                model="gemini-2.0-flash-exp",
-                google_api_key="AIzaSyCTWU4EWjxo3LjnPZZvC0dPMX098tkSOP0",
-                temperature=0.2,
-                max_tokens=None
-            )
-            stuff_chain = create_stuff_documents_chain(gemini_model, prompt)
-            output = create_retrieval_chain(retriever, stuff_chain)
-            answer_output = output.invoke({"input": user_question})['answer']
-            return answer_output
+        groq_model = ChatGroq(
+            temperature=0.1,
+            model_name="llama-3.3-70b-versatile"
+        )
+        stuff_chain = create_stuff_documents_chain(groq_model, prompt)
+        output = create_retrieval_chain(retriever, stuff_chain)
+        answer_output = output.invoke({"input": user_question})['answer']
+        return answer_output
+        
+
