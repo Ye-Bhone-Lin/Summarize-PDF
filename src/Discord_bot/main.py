@@ -77,8 +77,9 @@ class Client(discord.Client):
 
                             qa: Retriever = Retriever.retrieve(combined_docs)
                             final: Questions_and_Answers = Questions_and_Answers.qa_chain(qa, user_question=question_msg.content)
-
+                            
                             try:
+                                print(final)
                                 await message.channel.send(final)
                             
                             except discord.HTTPException as e:
