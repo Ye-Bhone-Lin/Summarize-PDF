@@ -4,3 +4,4 @@ langchain_groq
 discord
 langchain_huggingface
 hf_xet
+faiss-cpu
